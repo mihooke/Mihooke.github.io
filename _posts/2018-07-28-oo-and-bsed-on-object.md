@@ -15,7 +15,7 @@ tags:  OO
 
 我们都知道C++是一门面向对象的语言，它有四大范式：**better C，OO，data abstraction，generic programing**，其中很重要的一个就是OO，即面向对象，下面分别举例来说明面向对象编程和基于对象的编程。
 假设我们需要设计一个绘图类Graphic，它的作用是画点，直线……面向对象写法如下：
-```
+``` c++
 /*
  * OO, object-oriented implementation
  * pure virtual function
@@ -36,7 +36,7 @@ public:
 ```
 
 要实现绘图功能，通常做法是基类提供interface（纯虚函数实现），子类来实现行为，当然，不同的子类有不同的行为；这里，如果我们需要10种不同的绘图行为，那么需要10个子类来分别继承Graphic抽象父类来实现。下面看看基于对象写法：
-```
+``` c++
 /*
  * object-based implementation
  * std::function & std::bind
@@ -62,7 +62,7 @@ private:
 void draw_point() {}
 void draw_line() {}
 
-```
+``` c++
     /// OO usage
     Graphic *sg = new SpecialGraphic();
     sg->drawPoint();
