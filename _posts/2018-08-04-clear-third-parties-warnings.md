@@ -10,7 +10,7 @@ tags:  ThirdParty
 
 ---
 我们都知道编译器在编译程序阶段都会对程序进行合法性的检查，如果不合法则会报出error信息，导致编译不能通过；同时也会进行合理性检查，如果某些语句不合理，则会报出warning信息，通常warning不影响编译生成汇编代码和可执行文件，但是warning信息通常都是友好的，出现warning，一般是代码中有潜在的问题，下面是常见的warning：
-- 未使用函数参数（Unsed function parameter）
+- 未使用函数参数（Unused function parameter）
 - 定义了从未使用过的变量（Variable defined but never used）
 - 变量使用前未经初始化（Variable be used without being initialized）
 - 不是所有的分支都能正确return
