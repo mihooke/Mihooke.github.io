@@ -26,7 +26,7 @@ notepad_win = win32gui.FindWindow("notepad++", None)
 其中FindWindow函数原型（C++）为：
 ```c++
 HWND FindWindowA(
-  LPCSTR lpClassName,//类名，可在任务管理器选择进程的属性查看
+  LPCSTR lpClassName,//类名，可利用Spy++查看，Spy++可在VS的工具栏打开
   LPCSTR lpWindowName//即窗口title，可为空
 );
 ```
