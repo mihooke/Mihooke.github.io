@@ -1,3 +1,14 @@
+---
+
+layout: post
+
+title:  "Python项目定时生成日志到文件"
+
+categories: Python
+
+tags:  logging TimedRotatingFileHandler
+
+---
 python的logging模块提供了一个handler，可以解决定期保存日志到文件中。
 
 ```python
