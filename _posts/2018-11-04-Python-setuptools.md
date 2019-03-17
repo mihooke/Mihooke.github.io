@@ -11,7 +11,7 @@ tags:  Python wheel setuptools
 ---
 本文的目标是创建一个自己的Python库，并安装到Python系统目录下，就像调用通常的第三方包一样。
 包结构如下：
-![image](https://github.com/mihooke/Mihooke.github.io/tree/master/blog_images/python_setuptools.png)
+![image](https://github.com/mihooke/Mihooke.github.io/blob/master/blog_images/python_setuptools.png?raw=true)
 
 其中mihooke_package下面是要打包的库文件，包括3个文件__init__.py，client.py，server.py；setup.py位于mihooke_package同级目录，是安装库的安装文件，此文件必不可少。
 # 1.编写setup.py

@@ -3,7 +3,7 @@ layout: post
 
 title:  "deque和queue stack"
 
-categories: Data Structure and Algorithm
+categories: DataStructure&Algorithm
 
 tags:  Data-Structure deque queue stack
 ---

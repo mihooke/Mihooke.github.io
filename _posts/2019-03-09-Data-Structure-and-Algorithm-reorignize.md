@@ -4,7 +4,7 @@ layout: post
 
 title:  "常用数据结构与算法再整理（C++版）"
 
-categories: Data Structure and Algorithm
+categories: DataStructure&Algorithm
 
 tags:  Data-Structure Algorithm
 

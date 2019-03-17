@@ -4,7 +4,7 @@ layout: post
 
 title:  "list和slist"
 
-categories: Data Structure and Algorithm
+categories: DataStructure&Algorithm
 
 tags:  Data-Structure list slist
 

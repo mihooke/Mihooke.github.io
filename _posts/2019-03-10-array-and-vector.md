@@ -4,7 +4,7 @@ layout: post
 
 title:  "array和vector"
 
-categories: Data Structure and Algorithm
+categories: DataStructure&Algorithm
 
 tags:  Data-Structure array vector
 
